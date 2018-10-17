@@ -147,6 +147,9 @@ struct trainer_option
                 break;
             }
         }
+    cout << "init_mean:" << init_mean << " init_stdev:" << init_stdev << " threads_num:" << threads_num << " factor_num:" << factor_num
+        << " w_alpha:" << w_alpha << " w_beta:" << w_beta << " w_l1:" << w_l1 << " w_l2:" << w_l2
+        << " v_alpha:" << v_alpha << " v_beta:" << v_beta << " v_l1:" << v_l1 << " v_l2:" << v_l2 << endl;
     }
 };
 
